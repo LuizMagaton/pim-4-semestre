@@ -1,0 +1,16 @@
+# Requisitos de ambiente do VendeSprint AI
+# Este projeto e Node.js/TypeScript. Nao instale este arquivo com pip.
+# As dependencias JavaScript sao instaladas com: pnpm install
+
+nodejs >= 20.0.0
+pnpm == 10.18.0
+mysql >= 8.0
+git >= 2.40
+
+# Variaveis obrigatorias para executar o backend:
+# DATABASE_URL=mysql://usuario:senha@host:3306/vendesprint
+# MANUS_PROJECT_ID=seu-projeto
+# MANUS_JWT_SECRET=segredo-do-ambiente
+# MANUS_OAUTH_API_URL=url-do-oauth
+# MANUS_API_URL=url-da-api
+# MANUS_API_KEY=chave-da-api

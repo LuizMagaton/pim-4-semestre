@@ -20,6 +20,8 @@ pnpm db:migrate
 pnpm dev
 ```
 
+Para a lista de requisitos do ambiente e o passo a passo completo de instalação, consulte `requirements.txt` e `INSTALACAO.md`. Este projeto usa Node.js/TypeScript; portanto, as dependências são instaladas com `pnpm install`, e não com `pip`.
+
 O ambiente Webdev injeta `DATABASE_URL`, `MANUS_PROJECT_ID`, `MANUS_JWT_SECRET`, `MANUS_OAUTH_API_URL`, `MANUS_API_URL` e `MANUS_API_KEY`. Não coloque esses valores no frontend ou em commits.
 
 Checks disponíveis:
